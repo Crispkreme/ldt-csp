@@ -65,7 +65,7 @@ void moveCar() {
   motorSpeed1 = constrain(motorSpeed1, -255, 255);
   motorSpeed2 = constrain(motorSpeed2, -255, 255);
 
-  rotateMotor(motorSpeed1, motorSpeed2);
+  rotateMotor(motorSpeed1);
 }
 
 void rotateMotor(int speed1) {
